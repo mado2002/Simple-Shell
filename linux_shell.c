@@ -228,7 +228,7 @@ void shell()
     } while (1);
 }
 int main()
-{
+{ //main function
 
     signal(SIGCHLD, write_to_log_file);
     setup_enviroment();
